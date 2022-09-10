@@ -1,0 +1,68 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.links a {
+	padding-right: 0.5em;
+}
+
+body {
+	margin: 0;
+	background: #111;
+}
+
+.content {
+	font-size: large;
+	color: #eee;
+	max-width: 800px;
+	margin: auto;
+	padding: 1rem;
+}
+
+h1 {
+	text-align: center;
+	color: crimson;
+}
+
+header {
+	text-align: center;
+}
+
+a {
+	color: limegreen;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.justify-text {
+	text-align: justify;
+}
+
+.bible-verse {
+	text-align: center;
+}
+
+.small-text {
+	font-size: small;
+}
+
+.strong-text {
+	color: limegreen;
+}
+
+.cropped {
+	text-align: center;
+	height: 200px;
+	overflow: hidden;
+}
+
+.cropped img {
+	min-width: 800px;
+	margin-top: -250px;
+}
