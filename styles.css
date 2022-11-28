@@ -4,6 +4,7 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
+	outline: 1px solid limegreen !important;
 }
 
 .links a {
@@ -12,20 +13,22 @@ html {
 
 body {
 	margin: 0;
-	background: #111;
+	color: black;
 }
 
 .content {
 	font-size: large;
-	color: #eee;
 	max-width: 800px;
 	margin: auto;
 	padding: 1rem;
 }
 
+.light-red {
+	color: #ff6469;
+}
+
 h1 {
 	text-align: center;
-	color: crimson;
 }
 
 header {
@@ -65,4 +68,51 @@ a {
 .cropped img {
 	min-width: 800px;
 	margin-top: -250px;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.m-16 {
+	margin: 16px;
+}
+
+.gap-24 {
+	gap: 24px;
+}
+
+.justify-between {
+	justify-content: space-between;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.align-center {
+	align-items: center;
+}
+
+.mh-216 {
+	min-height: 216px;
+}
+
+.mw-196 {
+	min-width: 196px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1f252f;
+		color: #ffffff;
+	}
+
+	.light-red {
+		color: #fa7176;
+	}
 }
